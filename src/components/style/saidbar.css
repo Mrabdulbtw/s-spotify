@@ -1,0 +1,23 @@
+.said-bar {
+  flex: 0.2;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: #000;
+  color: gray;
+ 
+}
+
+.said-bar img {
+  height: 3rem;
+  margin-bottom: 10px;
+
+}
+
+strong {
+  font-size: 9px;
+  color: #fff;
+ 
+}
+.said-bar hr{
+  margin-bottom: 10px;
+}

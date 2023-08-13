@@ -1,0 +1,16 @@
+.container {
+    height: 55vh;
+    max-width: 100%;
+    overflow: overlay;
+}
+
+.container .playlist {
+    font-size: 13px;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: 200ms color linear;
+}
+
+.container .playlist:hover {
+    color: #fff;
+}

@@ -1,0 +1,9 @@
+.player {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-top {
+  display: flex;
+  flex-grow: 1;
+}

@@ -1,0 +1,62 @@
+.body {
+    background-color: rgb(52, 8, 85);
+    flex: 0.8;
+    background: linear-gradient(rgb(52, 8, 85), rgb(1, 0, 1));
+    color: #fff;
+}
+
+.song-details {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    column-gap: 10px;
+
+}
+
+.song-details img {
+    height: 20vw;
+}
+
+.des-owner {
+    display: flex;
+    column-gap: 8px;
+    font-size: 12px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    max-width: 96%;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.list-container {
+     margin: 30px;
+    margin-top: 50px;
+   
+}
+
+.song-list-header {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.3fr ;
+     width: 98%;
+     margin-top: 10px;
+     align-items: center; 
+     padding-left: 5px;
+     margin-bottom: 10px;
+}
+
+.has-title {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}

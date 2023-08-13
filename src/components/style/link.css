@@ -1,0 +1,17 @@
+.link {
+    display: flex;
+    column-gap: 1rem;
+    font-size: 13px;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms color ease-in-out;
+
+}
+
+.link .icon {
+    font-size: 11px;
+}
+
+.link:hover {
+    color: #fff;
+}
